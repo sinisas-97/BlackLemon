@@ -1,0 +1,1 @@
+//Mapping data from specific PIM API to Shopify objects

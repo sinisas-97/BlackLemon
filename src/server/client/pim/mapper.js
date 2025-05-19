@@ -1,0 +1,1 @@
+//Mapping PIM data to Shopify data for service.js
