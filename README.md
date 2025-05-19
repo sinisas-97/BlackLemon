@@ -2,7 +2,6 @@
 
 This is coding test for Black Lemon company. Task is to synchronize products from PIM to Shopify Store.
 
-
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file.
@@ -15,6 +14,32 @@ To run this project, you will need to add the following environment variables to
 
 `RECEIVER_STORE_SHOPIFY_NAME`
 
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/sinisas-97/BlackLemon.git
+```
+
+Go to the project directory
+
+```bash
+  cd BlackLemon
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
 ## API Reference
 
 #### Synchronize all products
@@ -23,7 +48,6 @@ To run this project, you will need to add the following environment variables to
   GET /pim/syncProducts
 ```
 
-
 ## Running Tests
 
 To run tests, run the following command
@@ -31,6 +55,12 @@ To run tests, run the following command
 ```bash
   npm test
 ```
+
+## Trello
+
+Here is link to Trello board
+
+[Trello Board](https://trello.com/b/ir1eukE7/black-lemon)
 
 
 ## Author
